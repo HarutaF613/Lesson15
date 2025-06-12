@@ -70,5 +70,7 @@ def draw():
     ship.draw()
     for bug in buglist:
         bug.draw()
+    for i in shootlist:
+        i.draw()
 
 pgzrun.go()
